@@ -13,4 +13,4 @@ spec:
       image: registry.access.redhat.com/ubi8/ubi
       command:
         - /bin/bash
-      args: ['-c', 'echo Hello $(params.person']
+      args: ['-c', 'echo Hello $(params.person)']
